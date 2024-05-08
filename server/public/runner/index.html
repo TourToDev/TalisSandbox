@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width,viewport-fit=cover" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Cache" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- __HTML_KEYWORDS_PLACEHOLDER__ -->
+    <!-- __HTML_DESCRIPTION_PLACEHOLDER__ -->
+    <script src="https://s.thsi.cn/hxapp/m/base/js/skywalking.1.1.5.min.js"></script>
+     
+<script>
+var activity = {
+  page: {
+    components: [
+        {
+          detail: {
+            name: 'BillRedPacket',
+          },
+          mark: 'BillRedPacket-1714028781371',
+          style: {},
+          baseEvent: [
+            {
+              conditionConfig: { isOpen: false, relation: "and" },
+              event: "none",
+              failEvent: "none",
+              moreSetting: true,
+              isSeedCRM: false,
+              sourceType: "",
+              backWash: { isOpen: false, isJumpToHome: false, url: "" },
+              isKeyBehavior: false,
+              isRecord: false,
+              historyEvent: [],
+              historyFailEvent: [],
+            },
+          ],
+          statInfo: { button: "按钮" },
+          clientRects: {
+          },
+        },
+      {
+        detail: {
+          name: "vue-button",
+        },
+        mark: "vue-button-1710828895681",
+        style: {},
+        baseEvent: [
+          {
+            conditionConfig: { isOpen: false, relation: "and" },
+            event: "none",
+            failEvent: "none",
+            moreSetting: true,
+            isSeedCRM: false,
+            sourceType: "",
+            backWash: { isOpen: false, isJumpToHome: false, url: "" },
+            isKeyBehavior: false,
+            isRecord: false,
+            historyEvent: [],
+            historyFailEvent: [],
+          },
+        ],
+        statInfo: { button: "按钮" },
+        clientRects: {
+          x: 791.5,
+          y: 290,
+          width: 306,
+          height: 42.796875,
+          top: 290,
+          right: 1097.5,
+          bottom: 332.796875,
+          left: 791.5,
+        },
+      },
+    ],
+    detail: {
+      canvasMode: "auto",
+      deviceType: "Mobile",
+      canvasMinWidth: "",
+      desktopCanvasWidth: "",
+      desktopCanvasHeight: "",
+      clientWindowWidth: "",
+      clientWindowHeight: "",
+      isClientWindowMax: true,
+      name: "devtest-random-01",
+      date: ["2024-03-18T16:00:00.000Z", "3024-03-19T15:59:59.000Z"],
+      title: "页面名称",
+      description: "",
+      protocol: [],
+      hasComment: false,
+      authentication: false,
+      onShowReload: false,
+      isShare: true,
+      shareType: "default",
+      shareTitle: "",
+      shareContent: "",
+      shareImage: "",
+      shareWithUserInfo: false,
+      navigationMode: ["unImmersive"],
+      backgroundType: "color",
+      backgroundColor: "rgba(245,245,245,1)",
+      backgroundImage: "",
+      redirect: false,
+      redirectURL: "",
+      withParams: true,
+      customPath: "",
+      backgroundColorFill: false,
+      backgroundImageColorFill: "rgba(245,245,245,1)",
+      forever: false,
+      isSeedCRM: false,
+      CRMID: "",
+      sourceType: "",
+      shareWaistbandMode: [],
+      backWashMask: false,
+      keywords: "",
+      pcAdapter: false,
+      language: "zh",
+      canvasRecs: {
+        x: 791.5,
+        y: 290,
+        width: 306,
+        height: 525,
+        top: 290,
+        right: 1097.5,
+        bottom: 815,
+        left: 791.5,
+      },
+      previewContainerRecs: {
+        x: 791.5,
+        y: 290,
+        width: 306,
+        height: 525,
+        top: 290,
+        right: 1097.5,
+        bottom: 815,
+        left: 791.5,
+      },
+    },
+    mark: "activity-1710828881409",
+  },
+  awardIdList: [],
+  conditionIdList: [],
+  dialog: [],
+  anchor: [],
+  componentIndex: 0,
+  activeTab: 0,
+  currentMark: "vue-button-1710828895681",
+  bottomIndex: 500,
+  topIndex: 500,
+  fixedHeight: 100,
+  grid: false,
+  createdTime: "",
+  remainsProtocolList: [],
+  dialogOrdinal: 0,
+  fixBottomIndex: 800,
+  fixTopIndex: 800,
+  isContainerComponent: false,
+  isTabsComponent: false,
+  isSlidePageComponent: false,
+  isSlideTabComponent: false,
+};
+var activityId = 36504;
+var sceneId = null;
+var businessLine = "saf";
+var date = "20240319";
+var activityType = 1;
+</script>
+
+    <script></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/cb?js/m/kh/common/scripts/fn/;basic.js;cookie.js;user.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/hxapp/m/base/js/backWash_v4.8.js"
+    ></script>
+    <script>
+      try {
+        ClientMonitor.register({
+          collector: "https://apm.hexin.cn/skywalking-web", // 采集器服务，注意区分环境和域名
+          rate: 0.1, // 性能采集比例，根据自己业务的实际访问量设置性能采样率，详见下方《其他注意事项》
+          service:
+            "mams::" +
+            window.businessLine +
+            "::page-creator-automation-pod-" +
+            window.activityId, // 部门标识::业务树 （“部门标识”用来在SkyWalking上分组的, 业务树取容器的“发布单元名称”）
+          // 页面路径，没有用前端路由要自定义，可参考location.pathname关键字
+          pagePath: location.pathname.substring(
+            location.pathname.lastIndexOf("/") + 1
+          ),
+          serviceVersion:
+            getPlatform() + "_mobile_" + (getAppVersion() || "others"), // 平台(iOS/Android/PC)+版本，格式：设备标识_业务标识_版本标识
+          enableSPA: false, // 是否考虑SPA的处理，没有用前端路由做单页应用的话一定要置为 false
+          useFmp: true, // 是否记录首屏加载信息
+          noTrace: true,
+        });
+        console.log(
+          "skyWalking register",
+          "mams::" +
+            window.businessLine +
+            "::page-creator-automation-" +
+            window.activityId,
+          getPlatform() + "_mobile_" + (getAppVersion() || "others")
+        );
+      } catch (e) {
+        console.warn(e && e.message);
+      }
+    </script>
+    <script type="text/javascript">
+      window.isInHexin = true;
+      window.pageStartTime = Date.now();
+    </script>
+    <link rel="icon" href="data:image/ico;base64,aWNv" />
+    <link
+      rel="stylesheet"
+      href="https://s.thsi.cn/cb?css/m/;adblock.css;js/m/kh/new_page_creator/generate/static/;normalize.css;ali_font.css"
+    />
+    <title><!-- __TITLE_PLACEHOLDER__ --></title>
+    <!-- __LINK_SCRIPT__ -->
+  </head>
+  <body style="font-size: 16px;">
+    <div id="talis-app"></div>
+    <div id="app"></div>
+    <script>
+      window.creationBook = {};
+      window.creationBook.registerComponent = ({ name, component }) => {
+        console.log("name");
+        console.log(name);
+        Vue.component(name, component);
+      };
+    </script>
+    <script src="http://localhost:3000/components/BillRedPacket/dist/js/BillRedPacket-28796381b50dadba93a4.js"></script>
+    <script>
+      new Vue({
+        el: "#talis-app",
+        template: "<div><BillRedPacket/></div>",
+      });
+    </script>
+    <!-- 回流所需依赖 -->
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/cb?js/m/v2.12/common/;zepto.js;basic.js;bridge.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/cd/ths-frontend-common-lib-container/v1.3.1/business/stat.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/js/m/v2.9/business/thsIphoneXAdapter.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/cd/ths-frontend-infra-jssdk-pod/1.0.8/thsc-base-jssdk.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/js/m/kh/page-creator/client/appToWeixin.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/cd/kaihu-page-creator-automation-container/jsencrypt.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://s.thsi.cn/cd/iwc-datav-d3-charts/d3_charts_0.4.31.js"
+    ></script>
+    <script src="https://s.thsi.cn/js/m/vue/2.6.11.min.js"></script>
+    <script
+      crossorigin="anonymous"
+      src="https://khtest.10jqka.com.cn/page-creator-automation/generate/pcDepDynamicImport_v1.0.js"
+    ></script>
+    <script src="https://s.thsi.cn/cb?;/js/m/kh/new_page_creator/plugin/;axios.min.js"></script>
+    <!-- lottie-web -->
+    <script src="https://s.thsi.cn/cd/ths-frontend-common-lib-container/v1.3.2/common/lottie-web.min.js"></script>
+    <!-- __REMAINS_PROTOCOL_PLACEHOLDER__ -->
+    <!-- __SCRIPT_PLACEHOLDER__ -->
+    <!-- <script
+      crossorigin="anonymous"
+      src="https://khtest.10jqka.com.cn/page-creator-automation/generate/testRem.js"
+    ></script> -->
+    <script
+      crossorigin="anonymous"
+      src="http://localhost:3000/runner/rem.js"
+    ></script>
+    <!-- 回流css资源 -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://s.thsi.cn/hxapp/m/base/css/backWash_remx_v4.7.css"
+    />
+    <!-- <script
+      type="text/javascript"
+      src="https://testm.10jqka.com.cn/staticS3/mobileweb-upload-static-server.file/appid_2/scripts/chunk-vendors.230ab50a.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://testm.10jqka.com.cn/staticS3/mobileweb-upload-static-server.file/appid_2/scripts/app.230ab50a.min.js"
+    ></script> -->
+    <script
+      type="text/javascript"
+      src="http://localhost:3000/tenon-platform/scripts/chunk-vendors.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://localhost:3000/tenon-platform/scripts/app.js"
+    ></script>
+  </body>
+</html>

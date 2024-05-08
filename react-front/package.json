@@ -1,0 +1,40 @@
+{
+  "name": "simple_webpack_boilerplate",
+  "version": "1.0.0",
+  "description": "A ready to use simple webpack boilerplate for react",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --progress --profile --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Sivaraj",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.22.10",
+    "@babel/preset-env": "7.22.10",
+    "@babel/preset-react": "7.22.5",
+    "babel-loader": "9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "5.5.3",
+    "less": "^4.2.0",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.88.2",
+    "webpack-bundle-analyzer": "^4.9.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "4.15.1"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@nextui-org/react": "^2.2.10",
+    "antd": "^5.15.2",
+    "axios": "^1.6.7",
+    "framer-motion": "^11.0.13",
+    "lodash": "^4.17.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-resizable-panels": "^2.0.18"
+  }
+}
