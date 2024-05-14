@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack serve --progress --profile --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production && mkdir -p ../server/public/dist && cp -R ./dist/* ../server/public/dist"
   },
   "author": "Sivaraj",
   "license": "ISC",

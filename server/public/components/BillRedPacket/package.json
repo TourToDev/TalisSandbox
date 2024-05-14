@@ -1,9 +1,0 @@
-{
-    "main": "./src/_index.js",
-    "dependencies": {
-        "vant": "^2.12.35",
-        "vue": "^2.6.11",
-        "html2canvas": "^1.0.0-rc.7"
-    }
-  }
-  

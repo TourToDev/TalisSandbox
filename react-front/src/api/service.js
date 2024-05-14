@@ -2,7 +2,7 @@ import Axios from 'axios'
 
 const service = Axios.create({
   // You can set global configuration options here, such as baseURL, headers, etc.
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://120.27.213.107:28080/calgNLHwhBl8OVLx/proxy/3000/api',
   headers: {
     'Content-Type': 'application/json',
     Authorization: 'Bearer your_access_token'
